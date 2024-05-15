@@ -2,13 +2,13 @@
 ![Prise-en-compte-crypto-actifs-dans-politiques-Etat-1440x577](https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/360c989d-47e3-495d-a9bc-08afb979d5f0)
 <br/>
 <br/>
-We are using Python to scrap a Naturalia product page. The aim is to track the daily price of that product in a csv file. We are indeed creating a function to append the daily prices into this csv file.
+We are building a function to automate the Data extraction from the CoinMarketCap Website using the API on Python. Then we proceed by conducting some data exploration and visualization.
 
 ## Content
 
 [1. Getting Started](#getting-started)  
 &emsp;[1.1 Requirements](#requirements)  
-[2. Process of Web Scraping](#process-of-web-scraping)  
+[2. Process of API Pull](#process-of-api-pull)  
 [3. Repository Content](#repository-content)  
 [4. Function](#function)  
 [5. License](#license)  
@@ -16,41 +16,49 @@ We are using Python to scrap a Naturalia product page. The aim is to track the d
 ## Getting Started
 
 
-We are going to use Naturalia product (5L Bottle of water) search result link as the source of our raw data [link](https://bio.naturalia.fr/products/MPX_2138023/details).
+We want to pull Data through API and read it in a Dataset (or in a CSV) looking like this : 
 <br/>
 <br/>
-<img width="941" alt="Capturescrappp" src="https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/deb52697-4f98-4e10-a45e-cfdbd3ea1866">
+<img width="700" alt="Captureapi" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/49511342-ed6e-42bf-9111-132b3b881070">
+
 ### Requirements
 
 1. Python 3.6+
-2. install BeautifulSoup **```pip install beautifulsoup4```**
-3. install Requests **```pip install requests```**
+2. install Requests **```pip install requests```**
+3. install BeautifulSoup **```pip install beautifulsoup4```**
 4. install Pandas **```pip install pandas```**
-5. the user-agent of your browser. To get the user-agent, just search for "my user agent" on Google and copy the user-agent string.
-6. product search url from Naturalia
+5. get the API URL and the API key
 
-## Process of Web Scraping
+## Process of API Pull
 
 1. Importing the required libraries
-2. Specifying the URL containing the dataset and passing it to **`requests.get()`** to get the HTML content of the page.
-3. Using BeautifulSoup to parse the HTML content
-4. Extracting the required information from the data
-5. Saving the pandas dataframe as a CSV file called **`NaturaliaScraperDataset.csv`**
+2. Specifying the URL of the API and passing it to **`session.get()`** to pull the Data
+3. Specifying the API key in order to get access to the Data
+4. Extracting the Data in JSON in this case
 
 ## Repository Content
 
-1. It contains a jupyter notebook file **`Naturalia-scraper.ipynb`** which contains the final codes to be used in the project.
-    * function to Extract Product Title, Product Price and Timestamp
-    * function to Send yourself an email when the price hits below a certain level
+1. It contains a jupyter notebook file **`Crypto-API-extraction.ipynb`** which contains the final codes to be used in the project.
+    * function to automate the Data extraction from the CoinMarketCap Website using the API
+    * visualizations of coin trends
 
-2. It contains a csv file **`NaturaliaScraperDataset.csv`** which contains the final data extracted from the website.
+2. It contains a csv file **`API.csv`** which contains the data automatically extracted from the website.
 
 
 ## Function
 
-Function to append daily prices into the CSV file :
+Function to to automate the Data extraction :
 
-<img width="391" alt="Capturescrapp2" src="https://github.com/jeanbaptistejacq/Naturalia-Web-Scraping/assets/80902643/ddc2be5c-eb63-4fda-9bfe-5b087766ef2b">
+<img width="700" alt="Captureapi2" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/d6cd3098-a67f-44fd-8e30-950f1349af06">
+
+Here's a chart displaying the percentage variations of several cryptocurrencies over 1 hour, 24 hours, 7 days, 30 days, 60 days, and 90 days : 
+
+<img width="500" alt="Captureapi3" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/4a3dfeea-4537-4ac2-9ee7-bd06ff69ad75">
+
+Presenting a chart depicting the minute-by-minute price evolution of Bitcoin over a 5-minute interval : 
+
+<img width="500" alt="Captureapi4" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/1919b8a8-ee2c-4c7c-9336-ee0aed5e3605">
+
 
 
 ## License
