@@ -27,7 +27,7 @@ We want to pull Data through API and read it in a Dataset (or in a CSV) looking 
 2. install Requests **```pip install requests```**
 3. install BeautifulSoup **```pip install beautifulsoup4```**
 4. install Pandas **```pip install pandas```**
-5. get the API URL and the API key
+5. get the API URL and the API key (provided within the Jupyter notebook)
 
 ## Process of API Pull
 
@@ -50,15 +50,20 @@ We want to pull Data through API and read it in a Dataset (or in a CSV) looking 
 Function to to automate the Data extraction :
 
 <img width="700" alt="Captureapi2" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/d6cd3098-a67f-44fd-8e30-950f1349af06">
-
+<br/>
+<br/>
 Here's a chart displaying the percentage variations of several cryptocurrencies over 1 hour, 24 hours, 7 days, 30 days, 60 days, and 90 days : 
-
+<br/>
+<br/>
 <img width="500" alt="Captureapi3" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/4a3dfeea-4537-4ac2-9ee7-bd06ff69ad75">
-
-Presenting a chart depicting the minute-by-minute price evolution of Bitcoin over a 5-minute interval : 
-
+<br/>
+<br/>
+Here's a chart depicting the minute-by-minute price evolution of Bitcoin over a 5-minute interval : 
+<br/>
+<br/>
 <img width="500" alt="Captureapi4" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/1919b8a8-ee2c-4c7c-9336-ee0aed5e3605">
-
+<br/>
+<br/>
 
 
 ## License
