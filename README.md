@@ -2,7 +2,7 @@
 ![Prise-en-compte-crypto-actifs-dans-politiques-Etat-1440x577](https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/360c989d-47e3-495d-a9bc-08afb979d5f0)
 <br/>
 <br/>
-We are building a function to automate the Data extraction from the CoinMarketCap Website using the API on Python. Then we proceed by conducting some data exploration and visualization.
+We are building a function to automate the data extraction from the CoinMarketCap Website using the API on Python. Then we proceed by conducting some data exploration and visualization.
 
 ## Content
 
@@ -16,7 +16,7 @@ We are building a function to automate the Data extraction from the CoinMarketCa
 ## Getting Started
 
 
-We want to pull Data through API and read it in a Dataset (or in a CSV) looking like this : 
+We want to pull data through API and read it in a dataset (or in a CSV) looking like this : 
 <br/>
 <br/>
 <img width="700" alt="Captureapi" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/49511342-ed6e-42bf-9111-132b3b881070">
@@ -38,16 +38,16 @@ We want to pull Data through API and read it in a Dataset (or in a CSV) looking 
 
 ## Repository Content
 
-1. It contains a jupyter notebook file **`Crypto-API-extraction.ipynb`** which contains the final codes to be used in the project.
-    * function to automate the Data extraction from the CoinMarketCap Website using the API
+1. It contains a Jupyter notebook file **`Crypto-API-extraction.ipynb`** with inside the final codes to be used in the project.
+    * function to automate the data extraction from the CoinMarketCap website using the API
     * visualizations of coin trends
 
-2. It contains a csv file **`API.csv`** which contains the data automatically extracted from the website.
+2. It contains a CSV file **`API.csv`** with inside the data automatically extracted from the website.
 
 
 ## Function
 
-Function to to automate the Data extraction :
+Function to to automate the data extraction :
 
 <img width="700" alt="Captureapi2" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/d6cd3098-a67f-44fd-8e30-950f1349af06">
 <br/>
