@@ -27,7 +27,7 @@ We want to pull data through API and read it in a dataset (or in a CSV) looking 
 2. Install Requests **```pip install requests```**
 3. Install BeautifulSoup **```pip install beautifulsoup4```**
 4. Install Pandas **```pip install pandas```**
-5. Get the API URL and the API key (provided within the Jupyter notebook)
+5. Get the API URL and the API key (provided within the Jupyter notebook, monthly limited access)
 
 ## Process of API Pull
 
