@@ -2,7 +2,7 @@
 ![Prise-en-compte-crypto-actifs-dans-politiques-Etat-1440x577](https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/360c989d-47e3-495d-a9bc-08afb979d5f0)
 <br/>
 <br/>
-We are building a function to automate the data extraction from the CoinMarketCap Website using the API on Python. Then we proceed by conducting some data exploration and visualization.
+We build a function to automate the data extraction from the CoinMarketCap Website using the API on Python. Then we proceed by conducting some data exploration and visualization.
 
 ## Content
 
@@ -24,21 +24,21 @@ We want to pull data through API and read it in a dataset (or in a CSV) looking 
 ### Requirements
 
 1. Python 3.6+
-2. install Requests **```pip install requests```**
-3. install BeautifulSoup **```pip install beautifulsoup4```**
-4. install Pandas **```pip install pandas```**
-5. get the API URL and the API key (provided within the Jupyter notebook)
+2. Install Requests **```pip install requests```**
+3. Install BeautifulSoup **```pip install beautifulsoup4```**
+4. Install Pandas **```pip install pandas```**
+5. Get the API URL and the API key (provided within the Jupyter notebook)
 
 ## Process of API Pull
 
-1. Importing the required libraries
-2. Specifying the URL of the API and passing it to **`session.get()`** to pull the Data
-3. Specifying the API key in order to get access to the Data
-4. Extracting the Data in JSON in this case
+1. Import the required libraries
+2. Specify the URL of the API and pass it to **`session.get()`** to pull the data
+3. Specify the API key in order to get access to the data
+4. Extract the data in JSON in this case
 
 ## Repository Content
 
-1. It contains a Jupyter notebook file **`Crypto-API-extraction.ipynb`** with inside the final codes to be used in the project.
+1. It contains a Jupyter notebook file **`Crypto-API-extraction.ipynb`** with inside the final codes to be used in the project :
     * function to automate the data extraction from the CoinMarketCap website using the API
     * visualizations of coin trends
 
@@ -47,7 +47,7 @@ We want to pull data through API and read it in a dataset (or in a CSV) looking 
 
 ## Function
 
-Function to to automate the data extraction :
+Function to automate the data extraction :
 
 <img width="700" alt="Captureapi2" src="https://github.com/jeanbaptistejacq/Crypto-API-Data-Pulling/assets/80902643/d6cd3098-a67f-44fd-8e30-950f1349af06">
 <br/>
